@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gardenLogFragment">
+
+    <fragment
+        android:id="@+id/gardenLogFragment"
+        android:name="com.miu.gardeningjournal.presentation.garden_log.GardenLogFragment"
+        android:label="Garden Log"
+        tools:layout="@layout/fragment_garden_log">
+        <action
+            android:id="@+id/action_gardenLogFragment_to_plantDetailsFragment"
+            app:destination="@id/plantDetailsFragment" />
+        <action
+            android:id="@+id/action_gardenLogFragment_to_addPlantFragment"
+            app:destination="@id/addPlantFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plantDetailsFragment"
+        android:name="com.miu.gardeningjournal.presentation.plant_details.PlantDetailsFragment"
+        android:label="Plant Details"
+        tools:layout="@layout/fragment_plant_details">
+        <argument
+            android:name="id"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPlantFragment"
+        android:name="com.miu.gardeningjournal.AddPlantFragment"
+        android:label="Add Plant"
+        tools:layout="@layout/fragment_add_plant" />
+</navigation>

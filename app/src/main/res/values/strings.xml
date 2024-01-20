@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gardening Journal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="enter_plant_name">Enter plant name</string>
+    <string name="type">Type</string>
+    <string name="enter_plant_type">Enter plant type</string>
+    <string name="watering_frequency">Watering Frequency</string>
+    <string name="enter_watering_frequency">Enter watering frequency</string>
+    <string name="planting_date">Planting Date</string>
+    <string name="pick_planting_date">Pick Planting Date</string>
+    <string name="add_plant">Add Plant</string>
+    <string name="dummy_rose">Rose</string>
+    <string name="type_flower">Type: Flower</string>
+    <string name="dummy_watering_2_days">Watering 2 days</string>
+    <string name="dummy_planting_date_2023_01_01">Planting Date: 2023-01-01</string>
+</resources>
